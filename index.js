@@ -123,15 +123,6 @@ function sendGenericMessage(sender) {
 	})
 }
 
-curl -X POST -H "Content-Type: application/json" -d '{
-  "recipient":{
-  	"id":"USER_ID"
-  },
-  "message":{
-  	"text":"hello, world!"
-  }
-}' "https://graph.facebook.com/v2.6/me/messages?access_token=EAAFrOcqjc14BANK0ymkkgCDqkDPvwQ1DI8fS5qaFeFFHgG04npBZCP12JSqFS7WBGKfIAZBHdrNv3swrkQluLUavaueQcZB6DvkXrrNgFTXVvn8H22sZCEC8lNcriW7Lw3VQBC5eXeWZBT7CUg4PCAZAbsEAe65ZBhKz7seqrVZCwzdXUiSb6upY"  
-
 // spin spin sugar
 app.listen(app.get('port'), function() {
 	console.log('running on port', app.get('port'))
