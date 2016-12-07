@@ -1,1 +1,1 @@
-heroku config:add VERIFY_TOKEN=$hello world i am a secret bot
+heroku config:add VERIFY_TOKEN=$hello_world
